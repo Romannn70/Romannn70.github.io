@@ -1,0 +1,1033 @@
+@import 'base/_base';
+@import 'base/_mixin';
+@import 'base/_variables';
+@import 'fonts.scss';
+
+.header {
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.15)), url("../images/Bitmap.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dreamshare {
+    font-family: $main-font;
+    font-size: 20px;
+}
+
+.headerName {
+    @include flexz(flex, row, space-between);
+}
+
+.dreamshare {
+    margin-left: 248px;
+    margin-top: 46px;
+    color: #FFFFFF;
+
+}
+
+.login {
+    font-family: $second-font;
+    @include flexz(flex, row, flex-end);
+
+}
+
+.log {
+    margin-top: 50px;
+    margin-right: 19px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+
+}
+
+.sing {
+    height: 36px;
+    width: 90px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-right: 291px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+
+.headerText {
+    @include flexz(flex, column, center);
+    align-items: center;
+
+}
+
+.headerTitle {
+    margin-top: 147.5px;
+    font-family: $main-font;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.headerSomeText {
+
+    @include section1text (28.5px, $main-font-roboto, #F7F3F2, 24px, 24px)
+}
+
+.headerLink {
+    width: 225px;
+    height: 40px;
+    border: 1px solid #FF4E50;
+    background-color: #FF4E50;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: $main-font;
+    margin-top: 33px;
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mainHeading1 {
+    text-align: center;
+    margin-top: 89px;
+    font-family: $main-font;
+    font-size: 26px;
+    line-height: 32px;
+
+}
+
+.mainHeading2 {
+    text-align: center;
+    margin-top: 95px;
+    font-family: $main-font;
+    font-size: 26px;
+    line-height: 32px;
+
+}
+
+
+.section1 {
+    margin-top: 35px;
+    @include flexz(flex, row, space-between);
+}
+
+.section1Pictures1 {
+    width: 300px;
+    height: 400px;
+    background-image: url("../images/Step1-image.png");
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .step {
+        width: 70px;
+        height: 20px;
+        border: 1px solid #FF4E50;
+        font-family: $second-font;
+        border-radius: 40px;
+        color: white;
+        background-color: #FF4E50;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 20px;
+
+
+    }
+
+    .section1Heading1 {
+        @include section1text (15px, $main-font, #FFFFFF, 24px, 26px)
+    }
+
+    .sectionText {
+        @include section1text (10px, $main-font-roboto, #E3E3E3, 14px, 14px);
+        margin-bottom: 21px;
+    }
+
+}
+
+
+.section1Pictures2 {
+    width: 300px;
+    height: 400px;
+    background-image: url("../images/Step2-image.png");
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .step2 {
+        width: 70px;
+        height: 20px;
+        border: 1px solid #FF4E50;
+        font-family: $second-font;
+        border-radius: 40px;
+        color: white;
+        background-color: #FF4E50;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 20px;
+
+
+    }
+
+    .section1Heading2 {
+        @include section1text (15px, $main-font, #FFFFFF, 24px, 26px);
+    }
+
+    .sectionText2 {
+        @include section1text (10px, $main-font-roboto, #E3E3E3, 14px, 14px);
+        margin-bottom: 21px;
+
+    }
+
+}
+
+.section1Pictures3 {
+    width: 300px;
+    height: 400px;
+    background-image: url("../images/Step3-image.png");
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .step3 {
+        width: 70px;
+        height: 20px;
+        border: 1px solid #FF4E50;
+        font-family: $second-font;
+        border-radius: 40px;
+        color: white;
+        background-color: #FF4E50;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 20px;
+
+
+    }
+
+    .section1Heading3 {
+        @include section1text (15px, $main-font, #FFFFFF, 24px, 26px);
+    }
+
+    .sectionText3 {
+        @include section1text (10px, $main-font-roboto, #E3E3E3, 14px, 14px);
+        margin-bottom: 21px;
+
+    }
+}
+
+
+
+
+
+.section2 {
+    @include flexz(flex, row, space-between);
+    margin-top: 35px;
+
+    .section2Block1 {
+        width: 221px;
+
+
+        .section2Pictures1 {
+            height: 120px;
+            width: 120px;
+            border: 0px solid #000;
+            position: relative;
+            margin: 0 auto;
+
+            .bit {
+                border-radius: 50%;
+
+            }
+
+        }
+
+        .section2Heading1 {
+            @include section2text(17px, $main-font, #444444, 14px, 17px, center)
+        }
+
+        .section2Text1 {
+            @include section2text(12px, $main-font-roboto, #666666, 14px, 14px, center)
+        }
+    }
+
+    .section2Block2 {
+        width: 221px;
+
+
+        .section2Pictures2 {
+            height: 120px;
+            width: 120px;
+            border: 0px solid #000;
+            position: relative;
+            margin: 0 auto;
+
+            .bit {
+                border-radius: 50%;
+
+            }
+
+        }
+
+        .section2Heading2 {
+            @include section2text(17px, $main-font, #444444, 14px, 17px, center)
+        }
+
+        .section2Text2 {
+            @include section2text(12px, $main-font-roboto, #666666, 14px, 14px, center)
+        }
+    }
+
+    .section2Block3 {
+        width: 221px;
+
+
+        .section2Pictures3 {
+            height: 120px;
+            width: 120px;
+            border: 0px solid #000;
+            position: relative;
+            margin: 0 auto;
+
+            .bit {
+                border-radius: 50%;
+
+            }
+
+        }
+
+        .section2Heading3 {
+            @include section2text(17px, $main-font, #444444, 14px, 17px, center)
+        }
+
+        .section2Text3 {
+            @include section2text(12px, $main-font-roboto, #666666, 14px, 14px, center)
+        }
+    }
+
+    .section2Block4 {
+        width: 221px;
+
+
+        .section2Pictures4 {
+            height: 120px;
+            width: 120px;
+            border: 0px solid #000;
+            position: relative;
+            margin: 0 auto;
+
+            .bit {
+                border-radius: 50%;
+
+            }
+
+        }
+
+        .section2Heading4 {
+            @include section2text(17px, $main-font, #444444, 14px, 17px, center)
+        }
+
+        .section2Text4 {
+            @include section2text(12px, $main-font-roboto, #666666, 14px, 14px, center)
+        }
+    }
+}
+
+
+.section2Pictures1::after {
+    content: url('../images/Shape.png');
+    width: 32px;
+    height: 32px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FF4E50;
+    left: 88px;
+    top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2Pictures2::after {
+    content: url('../images/Shape2.png');
+    width: 32px;
+    height: 32px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #19D4CA;
+    left: 88px;
+    top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2Pictures3::after {
+    content: url('../images/Shape3.png');
+    width: 32px;
+    height: 32px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FFA710;
+    left: 88px;
+    top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2Pictures4::after {
+    content: url('../images/Shape4.png');
+    width: 32px;
+    height: 32px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #667DF3;
+    left: 88px;
+    top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2Link {
+    height: 40px;
+    width: 180px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    @include section1text(36px, $main-font, #FF4E50, 14px, 17px, );
+}
+
+.section3Picturestop {
+    @include flexz(flex, row, space-between);
+    margin-top: 35px;
+
+    .section3Pictures1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 300px, 310px);
+
+    }
+
+    .section3Pictures2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object2.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 300px, 310px);
+
+    }
+
+    .section3Pictures3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object3.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 300px, 310px);
+
+    }
+
+}
+
+.section3PicturesCenter {
+    @include flexz(flex, row, space-between);
+    margin-top: 20px;
+
+    .section3PicturesCenter1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object4.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 300px, 310px);
+
+    }
+
+    .section3PicturesCenter2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object5.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 620px, 310px);
+
+    }
+
+}
+
+.section3PicturesBottom {
+    @include flexz(flex, row, space-between);
+    margin-top: 20px;
+
+    .section3PicturesBottom1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object6.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 620px, 310px);
+    }
+
+    .section3PicturesBottom2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)), url("../images/Object7.png");
+        @include section3text (flex, center, center, $main-font, 22px, 27px, #FFFFFF, 300px, 310px);
+    }
+}
+
+.mainText {
+    @include section2text (43px, $main-font-roboto, #666666, 18px, 14px, center);
+}
+
+.formLink {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .search {
+        width: 172.12px;
+        height: 40px;
+        text-decoration: none;
+        border: 1px solid;
+        border-radius: 40px;
+        font-size: 14px;
+        line-height: 17px;
+        background-color: #FF4E50;
+        color: #FFFFFF;
+        font-family: $main-font;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input[type="text"] {
+        width: 299px;
+        height: 40px;
+        margin-right: 10px;
+        font-family: $main-font-roboto;
+        padding-left: 14px;
+    }
+}
+
+.footer {
+    height: 224px;
+    margin-top: 100px;
+    border-top: 2px solid #FF4E50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 38px;
+
+    .footerPart1 {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: $second-font;
+        color: #FF4E50;
+
+    }
+
+    .footerPart2 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: $main-font;
+
+
+        .footerList {
+            margin-top: 11px;
+
+            a {
+                font-family: $main-font-roboto;
+                font-size: 14px;
+                line-height: 26px;
+                color: #999999;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .footerPart3 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: $main-font;
+
+    }
+
+    .footerPart4 {
+        font-family: $main-font;
+        font-size: 10px;
+        line-height: 12px;
+        color: #CCCCCC;
+        text-align: end;
+
+        .footerPictures {
+            margin-top: 7px;
+            width: 110px;
+            height: 24px;
+            background-image: url("../images/Bitmap123.png");
+            background-size: cover;
+
+        }
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .container {
+        width: 748px;
+    }
+
+    .header {
+        background-position: center;
+
+    }
+
+    .dreamshare {
+        margin-left: 48px;
+    }
+
+    .sing {
+        margin-right: 50px;
+    }
+
+    .mainHeading1 {
+        margin-top: 94px;
+        font-size: 22px;
+
+    }
+
+    .section1Pictures1,
+    .section1Pictures2,
+    .section1Pictures3 {
+        width: 236px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .section1Heading1,
+        .section1Heading2,
+        .section1Heading3 {
+            @include section1text (15px, $main-font, #FFFFFF, 24px, 14px);
+        }
+
+    }
+
+
+
+    .mainHeading2 {
+        margin-top: 94px;
+        font-size: 22px;
+
+    }
+
+    .section2 {
+        flex-wrap: wrap;
+        width: 492px;
+        margin: 35px auto 0px;
+
+        .section2Block1 {
+            margin-bottom: 54px;
+            order: 1;
+            width: 236px;
+            height: 205px;
+
+
+        }
+
+        .section2Block2 {
+            order: 3;
+            width: 236px;
+            height: 205px;
+
+
+        }
+
+        .section2Block3 {
+            order: 2;
+            width: 236px;
+            height: 224px;
+
+        }
+
+        .section2Block4 {
+            order: 4;
+            width: 236px;
+            height: 205px;
+
+
+        }
+    }
+
+
+
+    .section2Link {
+
+        margin-top: 40px;
+    }
+
+
+    .section3Picturestop {
+
+        .section3Pictures1 {
+            width: 236px;
+        }
+
+        .section3Pictures2 {
+            width: 236px;
+            text-align: center;
+        }
+
+        .section3Pictures3 {
+            width: 236px;
+        }
+
+    }
+
+    .section3PicturesCenter {
+        .section3PicturesCenter1 {
+            width: 236px;
+
+        }
+
+        .section3PicturesCenter2 {
+            width: 492px;
+        }
+
+    }
+
+    .section3PicturesBottom {
+        .section3PicturesBottom1 {
+            width: 492px;
+
+        }
+
+        .section3PicturesBottom2 {
+            width: 236px;
+
+        }
+
+
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 98%;
+    }
+
+    .header {
+        background-position: center;
+        height: 540px;
+
+
+    }
+
+    .headerName {
+        @include flexz(flex, column, center);
+
+    }
+
+    .dreamshare {
+        margin-left: 0px;
+        margin-top: 97px;
+        color: #FFFFFF;
+        order: 2;
+        text-align: center;
+    }
+
+
+    .login {
+        order: 1;
+        margin: 0 auto;
+
+        .sing {
+            margin-top: 20px;
+            margin-right: 0px;
+        }
+
+        .log {
+            margin-top: 30px;
+        }
+    }
+
+    .headerTitle {
+        margin-top: 26.5px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .headerSomeText {
+        @include section1text (5.5px, $main-font-roboto, #F7F3F2, 18px, 24px)
+    }
+
+    .headerLink {
+        margin-top: 15px;
+    }
+
+    .mainHeading1 {
+        margin-top: 34px;
+        font-size: 22px;
+        line-height: 27px;
+
+    }
+
+    .section1 {
+        margin-top: 35px;
+        @include flexz(flex, column, space-between);
+        flex-wrap: wrap;
+
+    }
+
+    .section1Pictures1 {
+        height: 240px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10px;
+
+        .step {
+            line-height: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sectionText {
+            margin-bottom: 16px;
+
+        }
+
+    }
+
+    .section1Pictures2 {
+        width: 100%;
+        height: 240px;
+        padding-left: 20px;
+        padding-right: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10px;
+
+
+        .step2 {
+            line-height: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section1Heading2 {
+            line-height: 14px;
+            margin-top: 14px;
+
+        }
+
+        .sectionText2 {
+            margin-top: 9px;
+            margin-bottom: 16px;
+
+        }
+
+
+
+    }
+
+    .section1Pictures3 {
+        width: 100%;
+        height: 240px;
+        padding-left: 20px;
+        padding-right: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .step3 {
+            line-height: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section1Heading2 {
+            line-height: 14px;
+        }
+
+        .sectionText2 {
+            margin-bottom: 16px;
+
+        }
+
+    }
+
+    .section2 {
+        @include flexz(flex, column, center);
+        align-items: center;
+        width: 100%;
+        margin-top: 14px;
+
+        .section2Block1,
+        .section2Block2,
+        .section2Block3 {
+            margin-bottom: 16px;
+        }
+
+    }
+
+    .mainHeading2 {
+        margin-top: 35px;
+
+    }
+
+    .section2Link {
+        width: 280px;
+        margin-top: 36px;
+
+    }
+
+    .section3Picturestop {
+        @include flexz(flex, column, center);
+        align-items: center;
+        margin-top: 33px;
+
+        .section3Pictures1,
+        .section3Pictures2,
+        .section3Pictures3 {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 30vw;
+            margin-bottom: 10px;
+        }
+    }
+
+    .section3PicturesCenter {
+        @include flexz(flex, column, center);
+        align-items: center;
+        margin-top: 0px;
+
+        .section3PicturesCenter1,
+        .section3PicturesCenter2 {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 30vw;
+            margin-bottom: 10px;
+        }
+    }
+
+    .section3PicturesBottom {
+        @include flexz(flex, column, center);
+        align-items: center;
+        margin-top: 0px;
+
+        .section3PicturesBottom1 {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 30vw;
+            margin-bottom: 10px;
+        }
+
+        .section3PicturesBottom2 {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 30vw;
+
+        }
+
+    }
+
+    .mainText {
+        margin-top: 9px;
+    }
+
+    .formLink {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        input[type="text"] {
+            width: 280px;
+            margin-right: 0px;
+            margin-bottom: 10px;
+
+        }
+
+        .search {
+            width: 280px;
+
+        }
+    }
+
+    .footer {
+        margin-top: 40px;
+        height: 204px;
+        padding-top: 19px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .footerPart2 {
+            margin-top: 13px;
+            text-align: center;
+
+        }
+
+
+        .footerList {
+            margin-top: 11px;
+            width: 188px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+
+
+        }
+        .footerPart3{
+            margin-top: 6px;
+        }
+        .footerPart4{
+            margin-top: 14px;
+            text-align: center;
+
+        }
+
+    }
+
+}

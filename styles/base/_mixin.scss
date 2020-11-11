@@ -1,0 +1,35 @@
+@mixin flexz($d, $fd, $jf) {
+    display: $d;
+    flex-direction: $fd;
+    justify-content: $jf;
+
+}
+@mixin section1text ($mt, $ff, $c, $fz, $lh) {
+    margin-top: $mt;
+    font-family: $ff;
+    color: $c;
+    font-size: $fz;
+    line-height: $lh;
+    
+}
+
+@mixin section2text ($mt, $ff, $c, $fz, $lh, $ta) {
+    margin-top: $mt;
+    font-family: $ff;
+    color: $c;
+    font-size: $fz;
+    line-height: $lh;
+    text-align: $ta;
+
+}
+@mixin section3text ($d, $jc, $ai, $ff, $fs, $lh, $c, $w, $h ) {
+    display: $d ;
+        justify-content: $jc ;
+        align-items: $ai;
+        font-family: $ff;
+        font-size: $fs;
+        line-height: $lh;
+        color: $c;
+        width: $w;
+        height: $h;
+}
